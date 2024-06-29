@@ -20,5 +20,5 @@ jobs:
       - name: Bump version
         uses: convention-change/action-standard-version@v1
         with:
-          release-by-ref: ${{ github.head_ref }}
+          release-by-ref: ${{ github.ref }}
           push-changes-and-tag: true
