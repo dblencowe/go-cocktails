@@ -4,7 +4,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,10 +12,18 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.21.x'
+          go-version: '1.22.x'
       - name: Install dependencies
-        run: go get .
+        run: go get ./...
+        working-directory: ./src
       - name: Build
-        run: go build -v ./...
-      - name: Test with the Go CLI
-        run: go test
+        run: go build ./cmd/main.go
+        working-directory: src
+      - name: Run Tests
+        run: go test ./...
+        working-directory: src
+      - name: Test Dockerfile build
+        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
+        with:
+          context: ./src
+          file: ./Dockerfile
