@@ -18,6 +18,4 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
       - name: Bump version
-        uses: convention-change/action-standard-version@v1
-        with:
-          push-changes-and-tag: true
+        uses: qzb/standard-version-action@v1.0.5
