@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Margarita",
+    "instructions": "Combine tequila, lime juice, and Cointreau in a shaker with ice. Shake well and strain into a salt-rimmed glass. Garnish with a lime wedge.",
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Cointreau",
+        "quantity": "1 oz"
+      }
+    ]
+  },
+  {
+    "name": "Daiquiri",
+    "instructions": "Combine rum, lime juice, and simple syrup in a shaker with ice. Shake well and strain into a chilled coupe glass.",
+    "ingredients": [
+      {
+        "name": "Rum",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Simple syrup",
+        "quantity": "0.5 oz"
+      }
+    ]
+  },
+  {
+    "name": "Mojito",
+    "instructions": "Muddle mint and lime juice in a highball glass. Add rum, top with soda water, and stir. Garnish with a mint sprig.",
+    "ingredients": [
+      {
+        "name": "Rum",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "0.5 oz"
+      },
+      {
+        "name": "Mint",
+        "quantity": "4-5 leaves"
+      },
+      {
+        "name": "Soda water",
+        "quantity": "Top up"
+      }
+    ]
+  },
+  {
+    "name": "Old Fashioned",
+    "instructions": "Muddle sugar cube with bitters in an old-fashioned glass. Add whiskey, stir with ice, and strain. Garnish with orange peel and cherry.",
+    "ingredients": [
+      {
+        "name": "Whiskey",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Sugar cube",
+        "quantity": "1"
+      },
+      {
+        "name": "Angostura bitters",
+        "quantity": "2 dashes"
+      },
+      {
+        "name": "Orange peel",
+        "quantity": "1 twist"
+      },
+      {
+        "name": "Cherry",
+        "quantity": "1"
+      }
+    ]
+  },
+  {
+    "name": "Negroni",
+    "instructions": "Combine gin, Campari, and sweet vermouth in a mixing glass with ice. Stir well and strain into a rocks glass filled with ice. Garnish with an orange peel.",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Campari",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Sweet vermouth",
+        "quantity": "1 oz"
+      },
+      {
+        "name": "Orange peel",
+        "quantity": "1 twist"
+      }
+    ]
+  },
+  {
+    "name": "Aperol Spritz",
+    "instructions": "Fill a wine glass with ice. Add Aperol, prosecco, and top with soda water. Garnish with an orange slice.",
+    "ingredients": [
+      {
+        "name": "Aperol",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "2 oz"
+      },
+      {
+        "name": "Soda water",
+        "quantity": "Top up"
+      },
+      {
+        "name": "Orange slice",
+        "quantity": "1"
+      }
+    ]
+  }
+]
