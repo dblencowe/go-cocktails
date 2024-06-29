@@ -5,14 +5,20 @@ on:
     branches:
       - prod
 
+permissions:
+  contents: write
+
 jobs:
   tag-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Configure committer
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
       - name: Bump version
-        uses: qzb/standard-version-action@v1.0.5
+        uses: convention-change/action-standard-version@v1
+        with:
+          release-by-ref: ${{ github.head_ref }}
+          push-changes-and-tag: true
