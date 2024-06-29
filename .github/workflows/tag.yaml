@@ -23,3 +23,5 @@ jobs:
         uses: qzb/standard-version-action@v1.0.5
       - name: Push tag
         run: git push --follow-tags origin prod
+        with:
+          token: ${{ secrets.PAT }}
